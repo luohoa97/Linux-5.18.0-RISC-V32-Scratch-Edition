@@ -1,0 +1,10 @@
+
+std = "2.1.0"
+
+# TurboWarp comment embedded in .sb3 — must match Config field names in goboscript
+frame_rate = 60
+stage_width = 320
+stage_height = 240
+no_miscellaneous_limits = true   # required: load_kernel is ~736k iterations
+no_sprite_fencing = true         # offscreen / no fencing
+high_quality_pen = true
